@@ -80,14 +80,34 @@ button {
 
 .header {
    border-bottom: 1px solid #E7E9FC;
+   padding-top: 24px;
+   padding-bottom: 24px;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
 }
 
 .header-navigation {
-    
+    display: flex;
+    align-items: center;
 }
+
+.header-link-list {
+    display: flex;
+    gap: 40px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
+}
+
+/* .header-link-item {
+    
+} */
 
 .header-logo {
     color: #2E2F42;
+    margin-right: 76px;
 }
 
 .header-list-item {
@@ -95,12 +115,16 @@ button {
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    color: #2E2F42;    
+    color: #2E2F42;
 }
 
 .header-list-item:hover {
     color: #404BBF;
 }
+
+/* .header-active {
+
+} */
 
 .header-active:active,
 .header-active:focus {
@@ -108,7 +132,18 @@ button {
 }
 
 .header-address {
+    margin-left: auto;
+}
 
+/* .address-item {
+    
+} */
+
+.header-address-list {
+    display: flex;
+    gap: 40px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
 }
 
 .header-address-link {
@@ -150,10 +185,13 @@ button {
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4D5AE5;
-    border-color: transparent;
+
+    border: none;
     border-radius: 4px;
     padding: 16px 32px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    /* min-width: 169px;
+    height: 56px; */
 }
 
 .hero-button:hover,
@@ -171,6 +209,7 @@ button {
 .features-list {
     display: flex;
     gap: 24px;
+    /* align-items: center; */
 }
 
 /* .features-list-item {
@@ -185,9 +224,9 @@ button {
     margin-bottom: 8px;
 }
 
-.features-text {
-    max-width: 264px;
-} 
+/* .features-text {
+    
+}  */
 
 /* PHOTO */      /*?  DONE  ?*/
 
@@ -210,7 +249,7 @@ button {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
-    width: 264px;
+    /* width: 264px; */
     height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 } 
@@ -251,6 +290,8 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
+    
 }
 
 /* .portfolio-item {
@@ -273,9 +314,9 @@ button {
     margin-bottom: 8px;
 }
 
-.portfolio-text {
+/* .portfolio-text {
     
-}
+} */
 
 /* FOOTER */       /*? DONE ?*/
 
