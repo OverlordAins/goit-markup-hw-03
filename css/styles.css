@@ -48,6 +48,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-right: 76px;
 }
 
 .section-title {
@@ -80,8 +81,8 @@ button {
 
 .header {
    border-bottom: 1px solid #E7E9FC;
-   padding-top: 24px;
-   padding-bottom: 24px;
+   /* padding-top: 24px;
+   padding-bottom: 24px; */
 }
 
 .header .container{
@@ -97,8 +98,12 @@ button {
 .header-link-list {
     display: flex;
     gap: 40px;
-    /* padding-top: 24px;
-    padding-bottom: 24px; */
+    
+}
+
+.header-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 /* .header-link-item {
@@ -107,7 +112,6 @@ button {
 
 .header-logo {
     color: #2E2F42;
-    margin-right: 76px;
 }
 
 .header-list-item {
@@ -123,7 +127,7 @@ button {
 }
 
 /* .header-active {
-
+    
 } */
 
 .header-active:active,
@@ -142,8 +146,7 @@ button {
 .header-address-list {
     display: flex;
     gap: 40px;
-    /* padding-top: 24px;
-    padding-bottom: 24px; */
+    
 }
 
 .header-address-link {
@@ -190,8 +193,8 @@ button {
     border-radius: 4px;
     padding: 16px 32px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    /* min-width: 169px;
-    height: 56px; */
+    min-width: 169px;
+    height: 56px;
 }
 
 .hero-button:hover,
@@ -206,10 +209,22 @@ button {
     padding-bottom: 120px;
 } 
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border:0;
+}
+
 .features-list {
     display: flex;
     gap: 24px;
-    /* align-items: center; */
+    
 }
 
 /* .features-list-item {
@@ -248,8 +263,7 @@ button {
 .card-item {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    /* width: 264px; */
+    /* padding: 0 0 32px 0; */
     height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 } 
@@ -259,12 +273,14 @@ button {
 }
 
 .card-image {
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
 }
 
-/* .name-role {
-    
-} */
+.name-role {
+    margin: 0 auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 
 .card-subtitle {
     text-align: center;
@@ -331,7 +347,7 @@ button {
 }
 
 .footer-link {
-    display: block;
+    display: inline-block;
     margin-bottom: 16px;
 }
 
