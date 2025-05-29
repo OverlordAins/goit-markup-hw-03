@@ -48,7 +48,6 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    margin-right: 76px;
 }
 
 .section-title {
@@ -109,6 +108,10 @@ button {
 
 .header-logo {
     color: #2E2F42;
+}
+
+.allogo {
+    margin-right: 76px;
 }
 
 .header-list-item {
@@ -184,7 +187,7 @@ button {
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4D5AE5;
-
+    
     border: none;
     border-radius: 4px;
     padding: 16px 32px;
